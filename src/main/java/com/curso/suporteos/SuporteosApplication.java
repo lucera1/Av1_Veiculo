@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = "com.curso.repositories")
 @SpringBootApplication
 public class SuporteosApplication {
-
+//problemas com versão do java na maquina do laboratorio
 	public static void main(String[] args) {
 		SpringApplication.run(SuporteosApplication.class, args);
 	}
