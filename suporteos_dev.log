@@ -1,0 +1,60 @@
+2024-11-29T18:13:38.139-03:00  INFO 16896 --- [suporteos] [restartedMain] c.curso.suporteos.SuporteosApplication   : Starting SuporteosApplication using Java 17.0.12 with PID 16896 (C:\Users\srgood\Documents\suporteos\target\classes started by srgood in C:\Users\srgood\Documents\suporteos)
+2024-11-29T18:13:38.145-03:00  INFO 16896 --- [suporteos] [restartedMain] c.curso.suporteos.SuporteosApplication   : The following 1 profile is active: "dev"
+2024-11-29T18:13:38.186-03:00  INFO 16896 --- [suporteos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-29T18:13:38.186-03:00  INFO 16896 --- [suporteos] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-29T18:13:38.711-03:00  INFO 16896 --- [suporteos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T18:13:38.729-03:00  INFO 16896 --- [suporteos] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-11-29T18:13:39.234-03:00  INFO 16896 --- [suporteos] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-29T18:13:39.246-03:00  INFO 16896 --- [suporteos] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-29T18:13:39.246-03:00  INFO 16896 --- [suporteos] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-29T18:13:39.291-03:00  INFO 16896 --- [suporteos] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-29T18:13:39.291-03:00  INFO 16896 --- [suporteos] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1104 ms
+2024-11-29T18:13:39.320-03:00  INFO 16896 --- [suporteos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-29T18:13:39.504-03:00  INFO 16896 --- [suporteos] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3372419c
+2024-11-29T18:13:39.506-03:00  INFO 16896 --- [suporteos] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-29T18:13:39.515-03:00  INFO 16896 --- [suporteos] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/Cinema'
+2024-11-29T18:13:39.628-03:00  INFO 16896 --- [suporteos] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T18:13:39.678-03:00  INFO 16896 --- [suporteos] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-29T18:13:39.712-03:00  INFO 16896 --- [suporteos] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-29T18:13:39.930-03:00  INFO 16896 --- [suporteos] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T18:13:40.007-03:00  INFO 16896 --- [suporteos] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-29T18:13:40.564-03:00  INFO 16896 --- [suporteos] [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.curso.domains.GrupoFilme (class must be instantiated by Interceptor)
+2024-11-29T18:13:40.590-03:00  INFO 16896 --- [suporteos] [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.curso.domains.Filme (class must be instantiated by Interceptor)
+2024-11-29T18:13:40.602-03:00  INFO 16896 --- [suporteos] [restartedMain] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.curso.domains.Cliente (class must be instantiated by Interceptor)
+2024-11-29T18:13:40.736-03:00  INFO 16896 --- [suporteos] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T18:13:40.747-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : set client_min_messages = WARNING
+2024-11-29T18:13:40.747-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : alter table if exists sessao drop constraint if exists FK9qsqvxtfrmm02l4i5ib6v1s1w
+2024-11-29T18:13:40.751-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : drop table if exists cliente cascade
+2024-11-29T18:13:40.753-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : drop table if exists filme cascade
+2024-11-29T18:13:40.754-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : drop table if exists grupofilme cascade
+2024-11-29T18:13:40.754-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : drop table if exists sessao cascade
+2024-11-29T18:13:40.754-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seq_filme
+2024-11-29T18:13:40.755-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seq_grupoproduto
+2024-11-29T18:13:40.756-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seq_idcliente
+2024-11-29T18:13:40.756-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : drop sequence if exists seq_sessao
+2024-11-29T18:13:40.759-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : create sequence seq_filme start with 1 increment by 50
+2024-11-29T18:13:40.765-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : create sequence seq_grupoproduto start with 1 increment by 50
+2024-11-29T18:13:40.766-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : create sequence seq_idcliente start with 1 increment by 50
+2024-11-29T18:13:40.767-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : create sequence seq_sessao start with 1 increment by 50
+2024-11-29T18:13:40.770-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : create table cliente (idade integer not null, id_cliente bigint not null, cpf varchar(11) not null, nome varchar(100) not null, email varchar(255) not null, endereco varchar(255) not null, telefone varchar(255) not null, primary key (id_cliente))
+2024-11-29T18:13:40.786-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : create table filme (classificacao_filme smallint not null check (classificacao_filme between 0 and 5), duracao integer not null, estado_filme smallint not null check (estado_filme between 0 and 3), id_filme bigint not null, genero varchar(255) not null, titulo varchar(255) not null, primary key (id_filme))
+2024-11-29T18:13:40.805-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : create table grupofilme (classificacao_filme smallint check (classificacao_filme between 0 and 5), estado_filme smallint check (estado_filme between 0 and 3), id bigint not null, titulo varchar(255) not null, primary key (id))
+2024-11-29T18:13:40.810-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : create table sessao (sala integer not null, data_hora timestamp(6) not null, filme_id bigint not null, id_sessao bigint not null, primary key (id_sessao))
+2024-11-29T18:13:40.813-03:00 DEBUG 16896 --- [suporteos] [restartedMain] org.hibernate.SQL                        : alter table if exists sessao add constraint FK9qsqvxtfrmm02l4i5ib6v1s1w foreign key (filme_id) references filme
+2024-11-29T18:13:40.821-03:00  INFO 16896 --- [suporteos] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T18:13:40.870-03:00  WARN 16896 --- [suporteos] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-29T18:13:41.179-03:00  INFO 16896 --- [suporteos] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-29T18:13:41.205-03:00  INFO 16896 --- [suporteos] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-29T18:13:41.213-03:00  INFO 16896 --- [suporteos] [restartedMain] c.curso.suporteos.SuporteosApplication   : Started SuporteosApplication in 3.451 seconds (process running for 3.808)
+2024-11-29T18:13:43.253-03:00  INFO 16896 --- [suporteos] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-29T18:13:43.273-03:00  INFO 16896 --- [suporteos] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-29T18:13:43.276-03:00  INFO 16896 --- [suporteos] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T18:13:43.279-03:00  INFO 16896 --- [suporteos] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-29T18:13:43.281-03:00  INFO 16896 --- [suporteos] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
